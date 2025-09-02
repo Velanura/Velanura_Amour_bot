@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: Velanura_Amour_bot
-    env: python
-    pythonVersion: "3.11"
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
-    repo: "https://github.com/Velanura/Velanura_Amour_bot"
